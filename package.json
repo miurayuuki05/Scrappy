@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cli-spinners": "^2.9.2",
+    "loading-cli": "^1.1.2",
+    "log-update": "^6.0.0",
+    "ora": "^8.0.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "scripts": {
+    "scrap": "node scrapper.js",
+    "pros" : "node data-proccess.js"
+  },
+  "type": "commonjs"
+}
